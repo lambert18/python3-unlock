@@ -13,8 +13,9 @@ Something similar would work if use range(numbers) instead, but without another 
 
 You can use any solutions below:<br />
 
+
 ### Solution 1
-```
+```python3
 numbers = 10
 
 for number in range(numbers):
@@ -23,9 +24,41 @@ for number in range(numbers):
         number += 1
     print('\n',end='')
 ```
+#### Explanation
+`numbers = 10` Defines Variable. But if you don't want that variable, you can input `for number in range(10):`
+If you want input code without variable, the code should like:
+```python3
+for number in range(10):
+    for i in range(10):
+        print (number,end="\t")
+        number += 1
+    print('\n',end='')
+```
+<br />
+
+`number += 1` is an operator used for every first number has been added 1 for each loop.
+It's like 
+```python3
+print (number,end="\t")
+number += 1
+print (number,end="\t")
+number += 1
+print (number,end="\t")
+number += 1
+```
+until 10 times.
+
+<br />
+
+The `end=` keyword argument dictates what should be printed after all of the arguments have been printed. <br />
+the backslash `\` is a special character, also called the "escape" character. It is used in representing certain whitespace characters: <br />
+`\t` is a tab <br />
+`\n` is a newline <br />
+
+---
 
 ### Solution 2
-```
+```python3
 numbers = 10
 for number in range(numbers):
     rowString = ''
@@ -33,10 +66,31 @@ for number in range(numbers):
         rowString += str(numIndex + number) + '\t'
     print(rowString)
 ```
+#### Explanation
+`numbers = 10` Defines Variable. But if you don't want that variable, you can input `for number in range(10):`
+If you want input code without variable, the code should like:
+```python3
+for number in range(10):
+    rowString = ''
+    for numIndex in range(10):
+        rowString += str(numIndex + number) + '\t'
+    print(rowString)
+```
+<br />
+
+
+
+---
 
 ### Solution 3
-```
+```python3
 numbers = 10
 for number in range(numbers):
     print("\t".join([str(index) for index in range(number, numbers + number )]))
 ```
+
+---
+
+## Create Decimals in 5 lines (Loop)
+The pict show:<br />
+![Case 1](https://i.stack.imgur.com/qtOe4.png)
