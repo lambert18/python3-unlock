@@ -6,7 +6,7 @@ This code only shared when i got some real / study case (assignment from school 
 The pict show:<br />
 <p align="center;">
     
-![Case 1](https://i.stack.imgur.com/qtOe4.png)
+<img src="https://i.stack.imgur.com/qtOe4.png">
 
 </p>
 
