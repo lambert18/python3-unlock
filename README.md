@@ -4,11 +4,11 @@ This code only shared when i got some real / study case (assignment from school 
 
 ## Make Pattern
 The pict show:<br />
-<p align="center;">
-    
-<img src="https://i.stack.imgur.com/qtOe4.png">
 
-</p>
+<div align="center">
+<img src="https://i.stack.imgur.com/qtOe4.png" >
+<p>Perfectly balanced</p>
+</div>
 
 <p>Converting numbers (i.e. 10) to a string, then taking a substring starting at character zero and ending before character 1. This will always be '1',
 converting that back to an int (i.e. 1).
