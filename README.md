@@ -4,7 +4,7 @@ This code only shared when i got some real / study case (assignment from school 
 
 ## Make Pattern
 The pict show:<br />
-<p align="center">
+<p align="center;">
     
 ![Case 1](https://i.stack.imgur.com/qtOe4.png)
 
